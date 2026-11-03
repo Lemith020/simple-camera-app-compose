@@ -48,3 +48,10 @@ app/src/main
 - Android Studio (latest stable version)
 - Android device or emulator with camera support
 - Minimum SDK as set in the project
+
+## Run the Project
+
+1. Clone the repository:
+   git clone https://github.com/Lemith020/simple-camera-app-compose.git
+2. Open the project in Android Studio and wait for Gradle sync to finish.
+3. Select a device or emulator and click Run.

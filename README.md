@@ -42,3 +42,9 @@ app/src/main
 │   └── MainActivity.kt
 └── res/xml
     └── file_paths.xml
+
+## Requirements
+
+- Android Studio (latest stable version)
+- Android device or emulator with camera support
+- Minimum SDK as set in the project

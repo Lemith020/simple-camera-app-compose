@@ -25,3 +25,10 @@ A simple Android camera application built with Kotlin and Jetpack Compose for th
 - **FileProvider:** creates a secure content:// Uri for the photo stored in the app cache.
 - **Intents:** an ACTION_SEND intent carries the photo Uri to other apps.
 - **Sharing interface:** Intent.createChooser opens the Android system share sheet.
+
+- ## How It Works
+
+1. Tap **Take Photo** and allow the camera permission.
+2. The camera opens. Capture a photo and confirm it.
+3. The captured photo is displayed in the app and the **Share** button appears.
+4. Tap **Share** to open the Android share sheet and choose an app.

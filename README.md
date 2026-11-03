@@ -55,3 +55,9 @@ app/src/main
    git clone https://github.com/Lemith020/simple-camera-app-compose.git
 2. Open the project in Android Studio and wait for Gradle sync to finish.
 3. Select a device or emulator and click Run.
+
+## Author
+
+W.D. Lemith Nanditha
+BSc (Hons) Software Engineering, University of Kelaniya
+GitHub: https://github.com/Lemith020

@@ -17,3 +17,11 @@ A simple Android camera application built with Kotlin and Jetpack Compose for th
 - FileProvider
 - Intent (ACTION_SEND) with Intent.createChooser
 - Coil (image loading)
+
+## Key Concepts
+
+- **Camera permission:** declared in AndroidManifest.xml and requested at runtime before opening the camera.
+- **Camera access:** the system camera is launched using the TakePicture contract, which saves the photo to a given Uri.
+- **FileProvider:** creates a secure content:// Uri for the photo stored in the app cache.
+- **Intents:** an ACTION_SEND intent carries the photo Uri to other apps.
+- **Sharing interface:** Intent.createChooser opens the Android system share sheet.

@@ -32,3 +32,13 @@ A simple Android camera application built with Kotlin and Jetpack Compose for th
 2. The camera opens. Capture a photo and confirm it.
 3. The captured photo is displayed in the app and the **Share** button appears.
 4. Tap **Share** to open the Android share sheet and choose an app.
+
+## Project Structure
+
+```
+app/src/main
+├── AndroidManifest.xml
+├── java/com/example/myapplication
+│   └── MainActivity.kt
+└── res/xml
+    └── file_paths.xml
